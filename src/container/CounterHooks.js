@@ -6,7 +6,7 @@ import { connect } from "react-redux";
 const counterHooks = props => {
   return (
     <div>
-      <p>Counter is {props.counter}</p>
+      <p>Current Counter is {props.counter}</p>
       <button onClick={props.onIncrementCounter}>INCREMENT</button>
       <button onClick={props.onDecrementCounter}>DECREMENT</button>
     </div>
